@@ -18,7 +18,7 @@ https://harvest.usask.ca/handle/10388/11831
 ### SageMath based code
 
 The `maketrees.sage`, `maketrees_cached.sage`,
-`maketrees_library.sage`, `maketrees_simple.sage` uses SageMAth to
+`maketrees_library.sage`, `maketrees_simple.sage` uses SageMath to
 generate Python code that evaluates certain rooted trees.  These
 rooted trees are mathematical constructs used to derive the numerical
 methods under study.  This code can be run with:
@@ -38,7 +38,8 @@ performance of numerical methods in the PostgreSQL database allowed me
 to perform both exploratory and final data analysis that would have
 been extremely in other tools.
 
-These files do not have any test code yet.
+These files do not currently have a test suite demonstrating their
+operation.
 
 ## Contact
 
