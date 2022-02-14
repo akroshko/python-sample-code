@@ -34,9 +34,9 @@ found in Chapter 2 and 3 of my Ph.D. thesis linked above.
 The `db_solver.py`, `db_watcher.py`, and `db_defaults.py` file are
 part of code to run multiple numerical solvers in parallel at once and
 keep the results updated in a PostgreSQL database.  Having the data on
-performance of numerical methods in the PostgreSQL database allowed me
+performance of numerical methods in a PostgreSQL database allowed me
 to perform both exploratory and final data analysis that would have
-been extremely in other tools.
+been extremely difficult with other tools.
 
 These files do not currently have a test suite demonstrating their
 operation.
