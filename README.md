@@ -7,18 +7,18 @@ algebra system) built on top of Python and the Python scientific
 computing ecosystem.
 
 The results of my work have not been published outside of my thesis
-yet. This repository is a subset of my completed work that I use to
-demonstrate Python code that I've written.
+yet, this is only several files I use to demonstrate Python code I've
+written.
 
-The full code base is further described in my Ph.D. thesis found at:
+The full code base if further described in my Ph.D. thesis found at:
 https://harvest.usask.ca/handle/10388/11831
 
 ## Description of the code
 
-### SageMath-based code
+### SageMath based code
 
 The `maketrees.sage`, `maketrees_cached.sage`,
-`maketrees_library.sage`, `maketrees_simple.sage` use SageMath to
+`maketrees_library.sage`, `maketrees_simple.sage` uses SageMAth to
 generate Python code that evaluates certain rooted trees.  These
 rooted trees are mathematical constructs used to derive the numerical
 methods under study.  This code can be run with:
@@ -29,7 +29,7 @@ This will generate several Python files in a `generated trees`
 subdirectory.  More information and references on rooted trees can be
 found in Chapter 2 and 3 of my Ph.D. thesis linked above.
 
-### Python-based code
+### Python based code
 
 The `db_solver.py`, `db_watcher.py`, and `db_defaults.py` file are
 part of code to run multiple numerical solvers in parallel at once and
